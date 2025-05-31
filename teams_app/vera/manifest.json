@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "version": "1.0.0",
+  "manifestVersion": "1.19",
+  "id": "06a349bb-8c24-44bb-9f57-c0a0bf7bcfaa",
+  "name": {
+    "short": "Vera",
+    "full": "Vera Bot for Teams"
+  },
+  "developer": {
+    "name": "Your Name",
+    "websiteUrl": "https://your-site-url.com",
+    "privacyUrl": "https://your-site-url.com/privacy",
+    "termsOfUseUrl": "https://your-site-url.com/terms"
+  },
+  "description": {
+    "short": "Vera is an AI assistant",
+    "full": "Vera is an AI assistant that helps you with your tasks. Vera has read much of our internal data, and can help you understand policies and do your work."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "b082f92f-d90e-4694-bd76-112d55bc1220",
+      "scopes": [
+        "personal",
+        "team",
+        "groupChat"
+      ],
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false,
+      "supportsFiles": true
+    }
+  ],
+  "validDomains": [
+    "*.lambda-url.us-east-1.on.aws"
+  ],
+  "webApplicationInfo": {
+    "id": "b082f92f-d90e-4694-bd76-112d55bc1220"
+  }
+}
